@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+**Wellness Habit Tracker**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple mobile app built using React Native (Expo) to help users build daily habits and stay consistent.
 
-## Get started
+** About the App**
 
-1. Install dependencies
+This app allows users to:
 
-   ```bash
-   npm install
-   ```
+Create daily habits (like drinking water, exercise, etc.)
+Mark habits as completed
+Track daily progress
+Maintain a streak
+View history of completed habits
+Get a motivational quote
+Manage profile and settings
 
-2. Start the app
+The goal of this project was to build a clean, functional mobile app while covering all major concepts from the course.
 
-   ```bash
-   npx expo start
-   ```
+**Tech Stack**
+React Native (Expo)
+Expo Router (Stack + Drawer Navigation)
+Firebase Authentication
+Firebase Firestore
+Context API
+AsyncStorage
+REST API (Quotes)
 
-In the output, you'll find options to open the app in a
+**Features**
+🔐 Login / Signup using Firebase
+📋 Add and manage habits
+✅ Daily check-in system
+🔥 Streak tracking
+📊 Progress bar with animation
+📜 History screen
+👤 Profile screen
+⚙️ Settings (stored locally using AsyncStorage)
+💬 Motivational quote API
+🔄 Pull-to-refresh
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Setup Instructions**
+1. Clone the repository:
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Install dependencies:
+npm install
 
-## Get a fresh project
+3. Run the app:
+npx expo start
 
-When you're ready, run:
+4. Open in:
+Expo Go (mobile) OR
+Emulator
 
-```bash
-npm run reset-project
-```
+🔐 Firebase Setup
+Firebase Authentication (Email/Password)
+Firestore Database for:
+habits
+checkins
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📸 Screens
 
-## Learn more
+<img width="492" height="880" alt="image" src="https://github.com/user-attachments/assets/21776ac9-83be-4acf-b2f5-897bd274de1d" />
 
-To learn more about developing your project with Expo, look at the following resources:
+**Learning Outcomes**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project helped in understanding:
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+React Native fundamentals
+Navigation using Expo Router
+Firebase integration
+State management using Context API
+UI design and layout
+Performance optimization techniques
