@@ -2,7 +2,7 @@
 
 A simple mobile app built using React Native (Expo) to help users build daily habits and stay consistent.
 
-** About the App**
+**About the App**
 
 This app allows users to:
 
@@ -66,9 +66,9 @@ checkins
 
 This project helped in understanding:
 
-React Native fundamentals
-Navigation using Expo Router
-Firebase integration
-State management using Context API
-UI design and layout
-Performance optimization techniques
+- React Native fundamentals
+- Navigation using Expo Router
+- Firebase integration
+- State management using Context API
+- UI design and layout
+- Performance optimization techniques
